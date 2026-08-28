@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local tool settings
+.claude/
+.vscode/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Agent data (checkpoints, etc.)
+checkpoints/
